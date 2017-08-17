@@ -1,0 +1,78 @@
+﻿.linkBox{
+float: left;
+margin-top:15px;
+margin-left: 20px;
+width:105px;
+height:auto;
+padding: 5px;
+text-align:center;
+color: white;
+font-weight: bold;
+text-decoration: none;
+font-family:"Arial";
+transition: 0.5s;
+}
+
+.linkBox:hover{
+background-color:#ccebff;
+color:#1aa3ff;
+}
+
+
+.navBar{
+width: 100%;
+height: 60px;
+background-color: #1aa3ff;
+position:fixed;
+top:0;
+overflow:hidden;
+margin-bottom: 30px;
+}
+
+.frame{
+height: auto;
+width:100%;
+padding-left: 10px;
+font-family: "Arial";
+margin-top:65px;
+display: inline-flex;
+-webkit-align-items: center;
+-webkit-justify-content: space-around;
+}
+
+.body{
+margin:0;
+}
+
+.txtBox{
+margin-top:60px;
+width:210px;
+height:235px;
+position:relative;
+}
+
+.lista{
+width:200px;
+height:180px;
+margin-left:5px;
+padding-left:5px;
+display:none;
+position:absolute;
+transition:0.5s;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.show{display:block;}
+
+.btn{
+width:100px;
+height:60px;
+background-color:#1aa3ff;
+border:none;
+text-align:center;
+color: white;
+font-weight: bold;
+text-decoration: none;
+font-family:"Arial";
+border-radius:5px;
+}
