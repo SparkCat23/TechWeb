@@ -2,8 +2,13 @@
 
 ADS 2B
 Grupo:
-Daniel - danielgui
-Gustavo - zzzaik
+
+Daniel Nunes- danielgui
+
+Gustavo Zaik- zzzaik
+
 Ivo - ivosantana
+
 João Carlos - scjoao
+
 Luka - LukaGabriel
