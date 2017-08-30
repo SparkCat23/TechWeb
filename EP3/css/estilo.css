@@ -12,3 +12,31 @@ p.sfloat{
 p.pnofloat{
 	float:left;
 }
+.centerTitle{
+	text-align:center;
+}
+.blueText{
+	color:79,129,189;
+}
+
+.greenText{
+	color:0,176,80;
+	font-wheight: bold;
+	
+}
+
+.orangeText{
+	color:255,192,0;
+	font-style:italic;
+}
+
+.redText{
+	color:255,0,0;
+	text-decoration:underline;
+}
+
+.purpleText{
+	font-family: "Times New Roman";
+	color: 128,100,162;
+	
+}
