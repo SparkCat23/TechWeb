@@ -45,3 +45,10 @@ p.pnofloat{
 .rightText{
 	text-align:right;
 }
+
+.underLine{
+	text-decoration:underline;
+	text-decoration-style:double;
+	text-decoration-color:blue;
+	float:right;
+}
