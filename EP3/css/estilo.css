@@ -51,4 +51,5 @@ p.pnofloat{
 	text-decoration-style:double;
 	text-decoration-color:blue;
 	float:right;
+	diplay:inline;
 }
