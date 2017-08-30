@@ -1,0 +1,11 @@
+.img{
+	width: 20em;
+	height: 10em;
+	float: left;
+}
+p.sfloat{
+	clear:bold;
+}
+p.pnofloat{
+	float:left;
+}
