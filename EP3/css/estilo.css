@@ -16,27 +16,27 @@ p.pnofloat{
 	text-align:center;
 }
 .blueText{
-	color:rgb(79,129,189);
+	color:blue;
 }
 
 .greenText{
-	color:rgb(0,176,80);
+	color:green;
 	font-wheight: bold;
 	
 }
 
 .orangeText{
-	color:rgb(255,192,0);
+	color:orange;
 	font-style:italic;
 }
 
 .redText{
-	color:rgb(255,0,0);
+	color:red;
 	text-decoration:underline;
 }
 
 .purpleText{
 	font-family: "Times New Roman";
-	color: rgb(128,100,162);
+	color: purple;
 	
 }
