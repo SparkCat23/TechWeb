@@ -1,0 +1,41 @@
+﻿section{
+	background-color: antiquewhite;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+#heading1{
+	color: red;
+}
+
+.listagem{
+	font-family: serif;
+}
+
+.texto{
+	font-family: monospace;
+}
+
+a:link{
+	color: green;
+}
+a:visited{
+	color: brown;
+}
+.amarelo:active{
+	color: yellow;
+}
+
+footer{
+	background-color: gray;
+}
+
+header {
+	background-color: blue;
+}
+
+article{
+	background-image: url("img/logo-novo.png");
+}
