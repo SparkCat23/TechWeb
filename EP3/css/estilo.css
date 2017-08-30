@@ -35,8 +35,13 @@ p.pnofloat{
 	text-decoration:underline;
 }
 
-.purpleText{
+.innnerBox{
+	width: 6em;
 	font-family: "Times New Roman";
 	color: purple;
-	
+	tesxt-align:center;
+}
+
+.rightText{
+	text-align:right;
 }
