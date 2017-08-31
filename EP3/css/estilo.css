@@ -1,5 +1,5 @@
 html {
-	font-family: verdana
+	font-family: arial
 }
 .img{
 	width: 20em;
@@ -93,6 +93,7 @@ p.Verdana
 {
 	font-size:12px;
 	color:red;
+	font-family:verdana;
 	line-height:24px;
 	border: 1px solid black;
 	width: 20%;
