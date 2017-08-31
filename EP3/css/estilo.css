@@ -88,3 +88,14 @@ table, th, td {
     padding: 0px 50px;
 }
 
+
+p.Verdana
+{
+	font-size:12px;
+	text-align:center;
+	color:red;
+	line-height:24px;
+	border: 1px solid black;
+	
+
+	}
