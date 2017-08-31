@@ -1,5 +1,5 @@
 html {
-	font-family: arial
+	font-family: verdana
 }
 .img{
 	width: 20em;
@@ -92,7 +92,6 @@ table, th, td {
 p.Verdana
 {
 	font-size:12px;
-	text-align:center;
 	color:red;
 	line-height:24px;
 	border: 1px solid black;
