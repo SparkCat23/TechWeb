@@ -61,3 +61,30 @@ p.pnofloat{
 	width: 40em;
 	border: 1px solid black;
 }
+
+td.notazul {
+  color: green;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+td.notaverm {
+  color: red;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+tr.linelgrey {
+  background-color: grey;
+}
+
+table.tab {
+   border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px 50px;
+}
+
