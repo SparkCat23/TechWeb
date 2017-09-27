@@ -1,0 +1,46 @@
+<meta charset = "UTF-8"/>
+<script>
+	function init(){
+		var btn = document.getElementById("botao");
+		btn.onclick = function (){
+			var inputs = document.getElementsByTagName("input");
+			var linha = document.createElement("tr");
+			for (var i=0; i < inputs.length; i++){
+				var input = inputs[i];
+				var valor = input.value;
+				if (!valor){
+					var nome = input.name;
+					alert("Man, "+nome+" está vazio!");
+					return
+				}
+				var celula = document.createElement("td");
+				celula.innerText = valor;
+				linha.appendChild(celula);
+				
+			}
+			var lista = document.getElementById("listaAlunos");
+			lista.appendChild(linha);
+		}
+	}
+</script>
+<body onload = "init()">
+<h1 id = "titulo" onClick = "alert('troslado')">Lançar Nota de Alunos</h1>
+<div id = "novoAluno">
+	<label for = "nome">Nome:</label><input id = "nome" name = "nome"/><br/>
+	<label for = "nota1">Nota 1:</label><input id = "nota1" name = "nota1" type="number"/><br/>
+	<label for = "nota2">Nota 2:</label><input id = "nota2" name = "nota2" type="number"/><br/>
+	<button id = "botao">Adicionar</button><br/><br/>
+</div>
+
+<div id = "alunos">
+	<table id = "listaAlunos" border = "1">
+		<tr>
+			<th>Aluno</th>
+			<th>Nota 1</th>
+			<th>Nota 2</th>
+			<th>Ações</th>
+		</tr>
+	</table>
+	Total: <span id = "totalAlunos">0</span>
+</div>
+</body>
