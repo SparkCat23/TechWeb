@@ -7,6 +7,7 @@
 <meta name="author" content="Joao Carlos-">
 <p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
 <table border="1">
+	<!-- Correto 2,0 -->
 	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
 	<tr><td>Apache</td><td>&nbsp;</td><td>X</td></tr>
 	<tr><td>JavaScript</td><td>X</td><td>&nbsp;</td></tr>
@@ -23,9 +24,9 @@
 <p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
 
 <p>RESPOSTA:<br>http:// -> Protocolo<br>www.impacta.com.br -> domínio-www é um subdomínio-<br>/eventos/ -> diretório ou path<br>defaut.php -> Recurso requisitado</p>
-
+<!-- Correto 2,0 -->
 <p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
-<ul>
+<ul><!-- Correto 2,0 -->
 	<li>
 		<p>
 			PROTOCOLO 1: FTP - File Tranfer Protocol. Serve para realizar transferências de arquivos de um servidor FTP.<br>O FTP permite modificar diretórios, inserir e apagar arquivos no servidor.
@@ -44,9 +45,14 @@
 </ul>
 
 <p><strong>4) Explore os sites de hospedagem do  (<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) e da LOCAWEB (<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
-
-<p>RESPOSTA:<br>Para desenvolver uma página estática, as ferramentas de criação de sites e pacotes de hospedagem simples são suficientes<br>Para desenvolver aplicações mais complexas, os sites oferecem suporte a multiplas plataformas, linguagens e banco de dados, além de servidores dedicados(locaWeb) e sistemas em nuvem.</p>
+<!-- Meio-certo 1,0 - faltou só comparar em cada um para sites dinâmicos qual serviço é mais adequado -->
+<p>RESPOSTA:<br>Para desenvolver uma página estática, as ferramentas de criação de sites e pacotes de hospedagem simples são suficientes<br>
+	Para desenvolver aplicações mais complexas, os sites oferecem suporte a multiplas plataformas, linguagens e banco de dados, além de servidores dedicados(locaWeb) 
+	e sistemas em nuvem.</p>
 
 <p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
-
-<p>RESPOSTA:<br>O HTTP 1.1 limita a quantidade de downloads simultâneos (entre 4 e 8, no Chrome); O HTTP2 usa Multiplexing, que realiza os donwloads assincronamente, sem ter que esperar a resposta dos requests pendentes<br>O HTTP 1.1 não prioriza o render, baixando tudo em ordem; O HTTP2 envia todos os requests ao mesmo tempo e define o que é mais interessante carregar primeiro.</p>
+<!-- Correto 2,0 -->
+<p>RESPOSTA:<br>O HTTP 1.1 limita a quantidade de downloads simultâneos (entre 4 e 8, no Chrome); 
+	O HTTP2 usa Multiplexing, que realiza os donwloads assincronamente, sem ter que esperar a resposta dos requests pendentes<br>
+	
+	O HTTP 1.1 não prioriza o render, baixando tudo em ordem; O HTTP2 envia todos os requests ao mesmo tempo e define o que é mais interessante carregar primeiro.</p>
